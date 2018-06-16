@@ -1,0 +1,36 @@
+body {
+    background-color: deepskyblue;
+}
+#cr1, #cr2, #cr3, #cr4 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+img:active {
+    transform: translateY(4px);
+}
+.txt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.alert-lose {
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.alert-win {
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+#info-bar {
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+}
